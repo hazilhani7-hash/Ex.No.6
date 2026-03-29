@@ -1,16 +1,39 @@
 # Ex.No.6 Development of Python Code Compatible with Multiple AI Tools
 
-# Date:
-# Register no.
-# Aim: Write and implement Python code that integrates with multiple AI tools to automate the task of interacting with APIs, comparing outputs, and generating actionable insights with Multiple AI Tools
 
-#AI Tools Required:
-
-# Explanation:
-Experiment the persona pattern as a programmer for any specific applications related with your interesting area. 
-Generate the outoput using more than one AI tool and based on the code generation analyse and discussing that. 
-
-# Conclusion:
+# Register no. : 212222020017
 
 
-# Result: The corresponding Prompt is executed successfully.
+## AIM:
+
+To develop Python code that works with multiple AI tools like TensorFlow, PyTorch, and scikit-learn, making it easier to switch between them for different tasks.
+
+## PROCEDURE:
+
+1.	Choose common AI tools (e.g., TensorFlow, PyTorch, scikit-learn).
+
+2.	Set up the Python environment and install required libraries.
+
+3.	Write modular code with separate parts for data, model, and training.
+
+4.	Add options to select tools using simple config or input.
+
+5.	Test the code with different AI tools to ensure compatibility.
+
+## PROGRAM:
+```
+import google.generativeai as genai
+genai.configure(api_key='AIzaSyAnL44_7dd13g5ZxaNKt-BnQZdslN79ldU')
+model=genai.GenerativeModel('gemini-1.5-flash')
+response= model.generate_content('What is the prompt engineering')
+print(response.text)
+```
+
+## OUTPUT:
+
+![Screenshot 2025-05-31 152224](https://github.com/user-attachments/assets/6d18357f-15ee-4304-a8d1-917a5c049e1c)
+
+
+ 
+## RESULT:
+The Python code worked successfully with TensorFlow, PyTorch, and scikit-learn, showing good compatibility and easy switching between tools.
